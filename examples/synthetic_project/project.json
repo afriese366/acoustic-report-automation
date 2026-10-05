@@ -1,0 +1,12 @@
+{
+  "project": {
+    "project_id": "DEMO-2026-001",
+    "title": "Acoustic demo assessment for a fictional logistics site",
+    "report_date": "2026-01-15",
+    "author": "Portfolio Demonstration"
+  },
+  "input_workbook": "acoustic_data.xlsx",
+  "template": "../../resources/demo_template.docx",
+  "citations": "../../resources/demo_citations.json",
+  "output_file": "../../output/demo_report.docx"
+}

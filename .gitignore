@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.coverage
+htmlcov/
+
+# Test- und Werkzeugausgaben
+.pytest_cache/
+.qa/
+output/
+dist/
+build/
+*.egg-info/
+
+# Lokale Konfiguration und Geheimnisse
+.env
+.env.*
+*.local.json
+config.ini
+
+# Personen- und Projektdaten dürfen nie versioniert werden
+data/
+*.sqlite
+*.sqlite3
+*.db
+logs/
+exports/
+~$*
+
+# Entwicklungsumgebungen
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

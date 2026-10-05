@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acoustic-report-automation"
+version = "0.1.0"
+description = "Anonymisierte Portfolio-Anwendung für deterministische DOCX-Berichte"
+requires-python = ">=3.10"
+dependencies = [
+  "docxtpl>=0.20,<1",
+  "openpyxl>=3.1,<4",
+  "python-docx>=1.1,<2",
+]
+
+[project.scripts]
+acoustic-report = "acoustic_report.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

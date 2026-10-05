@@ -1,0 +1,1 @@
+"""Domänenmodelle und deterministische Berechnungen."""
