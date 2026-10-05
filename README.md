@@ -6,9 +6,16 @@ Dieses Repository ist eine eigenständige, anonymisierte Implementierung für So
 
 ## Motivation
 
-Technische Berichte verbinden häufig strukturierte Berechnungsergebnisse, reproduzierbare technische Regeln und sorgfältig formatierte Textdokumente. Die manuelle Übertragung birgt vermeidbare Risiken: Werte können fehlerhaft übernommen werden, Rundungen können uneinheitlich ausfallen und eine Vorlage kann nicht aufgelöste Platzhalter enthalten.
+Ich arbeite beruflich im Bereich der technischen Akustik und habe dieses
+Projekt aus einem realen Bedarf heraus entwickelt: Wiederkehrende Arbeitsschritte
+bei der Erstellung technischer Gutachten sollen automatisiert werden, während
+fachliche Berechnungen transparent und durch den Gutachter überprüfbar bleiben.
 
-Dieses Projekt zeigt, wie eine kleine Python-Anwendung Eingabevalidierung, Berechnungen im Domain Model und Dokumentgenerierung voneinander trennt und das Ergebnis zugleich für eine fachkundige Person überprüfbar hält.
+Diese Portfolio-Version bildet die zugrunde liegenden Software-Engineering-
+Konzepte in einer eigenständigen Anwendung ab und verwendet ausschließlich
+synthetische Daten und neu erstellte Beispielartefakte.
+
+Technische Berichte verbinden häufig strukturierte Berechnungsergebnisse ...
 
 ## Datenfluss
 
